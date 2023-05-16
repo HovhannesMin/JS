@@ -17,7 +17,6 @@ const Form = () => {
   const handleRememberMeChange = (e) => {
     setRememberMe(e.target.checked);
   };
-  //THIS FOR GITHUB
   const handleSubmit = (e) => {
     e.preventDefault(); 
     if (rememberMe) {
